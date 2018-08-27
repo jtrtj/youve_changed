@@ -7,4 +7,5 @@ Rails.application.routes.draw do
    get '/logout' => 'sessions#destroy' 
 
    post '/notification' => 'notification#create'
+
 end
