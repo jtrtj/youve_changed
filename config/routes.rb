@@ -5,4 +5,6 @@ Rails.application.routes.draw do
    post '/users' => 'users#create'
    post '/login' => 'sessions#create'
    get '/logout' => 'sessions#destroy' 
+
+   post '/notification' => 'notification#create'
 end
